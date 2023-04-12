@@ -1,0 +1,17 @@
+name: 'Simplecov Group Coverage Report'
+description: 'Simplecov Group Coverage Report'
+author: tarqmamdouh
+branding:
+  icon: check-square
+  color: green
+inputs:
+  resultPath:
+    description: "coverage json path"
+    default: "coverage/coverage.json"
+    required: false
+  token:
+    description: "Github token"
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
