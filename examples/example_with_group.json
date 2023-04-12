@@ -2,7 +2,7 @@
   "timestamp": 1608721247,
   "command_name": "RSpec",
   "metrics": {
-    "covered_percent": 20.20,
+    "covered_percent": 0.000,
     "covered_lines": 3000,
     "total_lines": 10000
   },
@@ -21,7 +21,7 @@
     },
     {
       "group_name": "Ungrouped",
-      "covered_percent": 12.11111,
+      "covered_percent": 100.00000,
       "covered_lines": 8,
       "lines_of_code": 10
     }
